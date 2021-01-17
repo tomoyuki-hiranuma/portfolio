@@ -10,6 +10,7 @@
   "rules": {
     "no-extra-semi": "warn",
     "quotes": ["warn", "single"],
-    "space-before-blocks": ["warn", {"functions": "always", "classes": "always", "keywords": "never"}]
+    "space-before-blocks": ["warn", {"functions": "always", "classes": "always", "keywords": "never"}],
+    
   }
 }
