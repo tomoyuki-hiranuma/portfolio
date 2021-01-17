@@ -1,15 +1,14 @@
 {
-  "extends": ["eslint:recommended", "plugin:vue/recommended"],
-  "plugins": ["vue"],
+  "extends": ["plugin:prettier/recommended", "plugin:vue/recommended"],
+  "plugins": ["vue", "prettier"],
   "parserOptions": {},
   "env": {
     "browser": true,
     "es6": true
   },
   "globals": {},
+  // add your custom rules here
   "rules": {
-    "no-extra-semi": "warn",
-    "quotes": ["warn", "single"],
-    "space-before-blocks": ["warn", {"functions": "always", "classes": "always", "keywords": "never"}]
+    "no-console": "off"
   }
 }
