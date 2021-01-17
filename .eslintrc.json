@@ -9,6 +9,7 @@
   "globals": {},
   "rules": {
     "no-extra-semi": "warn",
-    "quotes": ["warn", "single"]
+    "quotes": ["warn", "single"],
+    "space-before-blocks": ["warn", {"functions": "always", "classes": "always", "keywords": "never"}]
   }
 }
