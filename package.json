@@ -7,8 +7,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "eslint --fix ./src",
-    "precommit": "npm run lint"
+    "lint": "eslint --fix ./src"
   },
   "dependencies": {
     "core-js": "^3.6.5",
