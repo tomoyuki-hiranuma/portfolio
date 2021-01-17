@@ -24,6 +24,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: dependence
-    - run: npm ci
+      run: npm ci
     - name: run lint
-    - run: npm run lint
+      run: npm run lint
