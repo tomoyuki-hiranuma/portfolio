@@ -23,7 +23,6 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm install -g eslint
-    - run: npm install eslint-plugin-vue@latest --save-dev
-    - run: npm install eslint-plugin-prettier@latest --save-dev
+    - run: npm install -g eslint prettier
+    - run: npm install --save-dev eslint-plugin-vue@latest eslint-plugin-prettier@latest
     - run: npm run lint
