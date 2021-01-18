@@ -25,12 +25,12 @@ header {
   position: fixed;
   top: 0;
   z-index: 10;
+  height: auto;
 }
 
 p {
   padding: 20px;
   width: 160px;
-  height: auto;
   display: inline-block;
   font-size: 18px;
   cursor: pointer;
