@@ -16,7 +16,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 header {
   width: 100%;
   text-align: center;
@@ -28,9 +28,14 @@ header {
 }
 
 p {
-  margin: 20px;
-  width: 150px;
+  padding: 20px;
+  width: 160px;
+  height: auto;
   display: inline-block;
   font-size: 18px;
+  cursor: pointer;
+  &:hover {
+    background-color: darken(white, 5%);
+  }
 }
 </style>
