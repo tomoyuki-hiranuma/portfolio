@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <p>&copy;{{ thisYear }} Tomoyuki Hiranuma. All rights reserved.</p>
+    <p>&copy;{{ thisYear }}- Tomoyuki Hiranuma. All rights reserved.</p>
     <p>Github</p>
     <p>Twitter</p>
     <p>Blog</p>
@@ -12,7 +12,7 @@ export default {
   name: 'MyFooter',
   data() {
     return {
-      thisYear: '2021-',
+      thisYear: '2021',
     };
   },
 };
@@ -20,7 +20,8 @@ export default {
 
 <style lang="scss" scoped>
 footer {
+  width: 100%;
   background-color: lighten(dimgray, 30%);
-  padding-top: 20px;
+  padding-top: 10px;
 }
 </style>
