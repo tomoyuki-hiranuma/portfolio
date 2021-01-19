@@ -11,17 +11,20 @@
         </div>
       </div>
       <About />
+      <Education />
     </div>
   </main>
 </template>
 
 <script>
 import About from './About.vue';
+import Education from './Education';
 
 export default {
   name: 'Main',
   components: {
     About,
+    Education,
   },
 };
 </script>
