@@ -1,6 +1,6 @@
 <template>
   <footer class="relative">
-    <p class="float-left absolute top-1/3">
+    <p class="float-left absolute top-1/3 left-8">
       &copy;{{ thisYear }}- Tomoyuki Hiranuma. All rights reserved.
     </p>
     <div class="absolute right-10 top-1/3">
@@ -26,6 +26,6 @@ export default {
 footer {
   width: 100%;
   background-color: lighten(dimgray, 30%);
-  height: 150px;
+  height: 140px;
 }
 </style>
