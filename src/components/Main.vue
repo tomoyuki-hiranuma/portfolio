@@ -3,11 +3,10 @@
     <div>
       <div>
         <div
-          class="static bg-gradient-to-r from-yellow-300 via-red-400 to-pink-400 h-96 pt-2"
+          id="top"
+          class="static bg-gradient-to-r from-yellow-300 via-red-400 to-pink-400"
         >
-          <p class="antialiased text-4xl my-12">
-            Welcome to Tomoyuki Hiranuma's Portfolio!
-          </p>
+          <p id="message">Welcome to my portfolio!!</p>
         </div>
       </div>
       <About />
@@ -32,5 +31,16 @@ export default {
 <style lang="scss" scoped>
 main {
   width: 100%;
+}
+#top {
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+#message {
+  position: absolute;
+  font-size: 40px;
+  left: 10%;
+  top: 50%;
 }
 </style>

@@ -29,7 +29,7 @@ header {
 }
 
 p {
-  padding: 20px;
+  padding: 16px;
   width: 160px;
   display: inline-block;
   font-size: 18px;
