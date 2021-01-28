@@ -33,7 +33,7 @@ export default {
         },
         {
           program: 'C++',
-          level: '★★★☆☆',
+          level: '★★☆☆',
           comment: '競技プログラミングに使用しています',
         },
         {
@@ -60,7 +60,7 @@ export default {
         },
         {
           program: 'AWS',
-          level: '★★★☆☆',
+          level: '★★☆☆☆',
           comment: 'S3, EC2, RDS',
         },
         {
