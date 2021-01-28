@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="skills">
     <p class="text-4xl my-10 font-serif">Skills</p>
     <div
       class="container mx-auto grid grid-cols-3 gap-3 justify-center items-center"

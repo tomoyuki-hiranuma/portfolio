@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="about">
     <p class="text-4xl my-10 font-serif">About me</p>
     <div class="text-lg my-10">
       <li>Master student at Tokyo Institute of Technology</li>
