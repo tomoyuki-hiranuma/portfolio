@@ -2,7 +2,10 @@
   <div>
     <p class="text-4xl my-10 font-serif">Skills</p>
     <!-- TODO: card componentにして使い回すようにする -->
-    <div class="container mx-auto grid grid-cols-3 justify-center items-center">
+    <!-- TODO: props に渡す -->
+    <div
+      class="container mx-auto grid grid-cols-3 gap-3 justify-center items-center"
+    >
       <SkillCard />
       <SkillCard />
       <SkillCard />
