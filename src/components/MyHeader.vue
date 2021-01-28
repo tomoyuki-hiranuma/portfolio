@@ -1,11 +1,11 @@
 <template>
   <header>
     <div>
-      <p>Top</p>
-      <p>About Me</p>
-      <p>Education</p>
-      <p>Skills</p>
-      <p>Works</p>
+      <p class="font-serif">Top</p>
+      <p class="font-serif">About Me</p>
+      <p class="font-serif">Education</p>
+      <p class="font-serif">Skills</p>
+      <p class="font-serif">Works</p>
     </div>
   </header>
 </template>
