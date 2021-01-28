@@ -1,11 +1,21 @@
 <template>
   <header>
     <div>
-      <p class="font-serif">Top</p>
-      <p class="font-serif">About Me</p>
-      <p class="font-serif">Education</p>
-      <p class="font-serif">Skills</p>
-      <p class="font-serif">Works</p>
+      <a href="#" v-scroll-to="'#top'">
+        <p class="font-serif">Top</p>
+      </a>
+      <a href="#" v-scroll-to="'#about'">
+        <p class="font-serif">About Me</p>
+      </a>
+      <a href="#" v-scroll-to="'#education'">
+        <p class="font-serif">Education</p>
+      </a>
+      <a href="#" v-scroll-to="'#skills'">
+        <p class="font-serif">Skills</p>
+      </a>
+      <a href="#" v-scroll-to="'#works'">
+        <p class="font-serif">Works</p>
+      </a>
     </div>
   </header>
 </template>

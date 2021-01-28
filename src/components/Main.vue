@@ -18,7 +18,8 @@
       </div>
       <About />
       <Education />
-      <Skill />
+      <Skills />
+      <Works />
     </div>
   </main>
 </template>
@@ -26,14 +27,16 @@
 <script>
 import About from './About.vue';
 import Education from './Education';
-import Skill from './Skill';
+import Skills from './Skills';
+import Works from './Works';
 
 export default {
   name: 'Main',
   components: {
     About,
     Education,
-    Skill,
+    Skills,
+    Works,
   },
 };
 </script>

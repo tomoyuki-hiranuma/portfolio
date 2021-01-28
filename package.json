@@ -30,6 +30,7 @@
     "sass": "^1.32.4",
     "sass-loader": "^10.1.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
+    "vue-scrollto": "^2.20.0",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {

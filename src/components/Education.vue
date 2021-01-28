@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="education">
     <p class="text-4xl my-10 font-serif">Education</p>
     <div>
       <div class="p-3">
