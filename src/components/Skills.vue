@@ -20,7 +20,7 @@
 import SkillCard from '../atoms/SkillCard';
 
 export default {
-  name: 'Skill',
+  name: 'Skills',
   components: {
     SkillCard,
   },

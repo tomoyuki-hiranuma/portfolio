@@ -13,7 +13,9 @@
       <a href="#" v-scroll-to="'#skills'">
         <p class="font-serif">Skills</p>
       </a>
-      <p class="font-serif">Works</p>
+      <a href="#" v-scroll-to="'#works'">
+        <p class="font-serif">Works</p>
+      </a>
     </div>
   </header>
 </template>
