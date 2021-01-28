@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white w-full flex items-center p-2 rounded-xl shadow border">
     <div class="flex items-center space-x-4">
-      <p>img</p>
+      <img :src="image_src" width="25" />
     </div>
     <div class="flex-grow p-3">
       <div class="font-semibold text-gray-700">{{ program }}</div>
@@ -25,6 +25,11 @@ export default {
       required: true,
     },
     comment: {
+      type: String,
+      default: '',
+      required: false,
+    },
+    image_src: {
       type: String,
       default: '',
       required: false,
