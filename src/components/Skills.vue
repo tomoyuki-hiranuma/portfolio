@@ -1,6 +1,7 @@
 <template>
   <div id="skills">
     <p class="text-4xl my-10 font-serif">Skills</p>
+    <p class="text-2xl my-5">language&Frameworks</p>
     <div
       class="container mx-auto grid grid-cols-3 gap-3 justify-center items-center"
     >
@@ -13,6 +14,8 @@
         />
       </div>
     </div>
+    <p class="text-2xl my-5">Work experience</p>
+    <p>工事中...インターン経験まとめる</p>
   </div>
 </template>
 
