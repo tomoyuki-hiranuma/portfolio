@@ -14,8 +14,40 @@
         />
       </div>
     </div>
-    <p class="text-2xl my-5">Work experience</p>
-    <p>工事中...インターン経験まとめる</p>
+    <p class="text-2xl my-10">Work experience</p>
+    <div>
+      <div class="my-10">
+        <p class="">TeamLab</p>
+        <div>
+          <p>2020-11 ~ 2020-12</p>
+          <p>ECサイトのバックエンド開発に従事</p>
+        </div>
+      </div>
+      <div class="my-10">
+        <p class="">Rakuten Inc.</p>
+        <div>
+          <p>2020-9-1 ~ 2020-9-11</p>
+          <p>
+            「人と人をオンラインでつなぐ」というテーマのもと新規サービスのプロトタイプを開発
+          </p>
+          <p>
+            6人チームのプロジェクトリーダー及びバックエンドリーダーとして開発に従事
+          </p>
+        </div>
+      </div>
+      <div class="my-10">
+        <p>e-Seikatsu Inc.</p>
+        <div>
+          <p>2020-8-24 ~ 2020-8-28</p>
+        </div>
+      </div>
+      <div class="my-10">
+        <p>GATechnologies Inc.</p>
+        <div>
+          <p>2020-6-27 ~ 2020-6-28</p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -86,3 +118,9 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+.intern {
+  height: 500px;
+}
+</style>
