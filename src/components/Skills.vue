@@ -17,55 +17,46 @@
     <p class="text-2xl my-10">Work experience</p>
     <!-- 変数にしてfor文で回す -->
     <div>
-      <!-- コンポーネントに分ける -->
-      <div class="py-5 flex container mx-auto">
-        <div class="flex-1 my-auto text-xl font-medium">TeamLab Inc.</div>
-        <div class="flex-1">
-          <p>2020/11/26 ~ 2020/12/23</p>
-          <p>
-            Work as a backend engineer in the e-commerce technology actually
-          </p>
-        </div>
-      </div>
-      <div class="py-5">
-        <p class="">Rakuten Inc.</p>
-        <div>
-          <p>2020/9/1 ~ 2020/9/11</p>
-          <p>
-            Develop a new service as a prototype in the theme "Connect people
-            online"<br />
+      <InternColumn
+        company="TeamLab Inc."
+        start_date="2020/11/26"
+        end_date="2020/12/23"
+        comment="Work as a backend engineer in the e-commerce technology actually"
+      />
+      <InternColumn
+        company="Rakuten Inc."
+        start_date="2020/9/1"
+        end_date="2020/9/11"
+        comment='Develop a new service as a prototype in the theme "Connect people
+            online"
             Work as a leader of backend engineers and a project leader in our
-            team
-          </p>
-        </div>
-      </div>
-      <div class="py-5">
-        <p>e-Seikatsu Inc.</p>
-        <div>
-          <p>2020/8/24 ~ 2020/8/28</p>
-          <p>Develop a Property search service using in-house API</p>
-        </div>
-      </div>
-      <div class="py-5">
-        <p>GA Technologies Inc.</p>
-        <div>
-          <p>2020/6/27 ~ 2020/6/28</p>
-          <p>
-            Develop a prototype service that overcomes to replace with furniture
-          </p>
-        </div>
-      </div>
+            team'
+      />
+      <InternColumn
+        company="e-Seikatsu Inc."
+        start_date="2020/8/24"
+        end_date="2020/8/28"
+        comment="Develop a Property search service using in-house API"
+      />
+      <InternColumn
+        company="GA Technologies Inc."
+        start_date="2020/6/27"
+        end_date="2020/6/28"
+        comment="Develop a prototype service that overcomes to replace with furniture"
+      />
     </div>
   </div>
 </template>
 
 <script>
 import SkillCard from '../atoms/SkillCard';
+import InternColumn from '../atoms/InternColumn';
 
 export default {
   name: 'Skills',
   components: {
     SkillCard,
+    InternColumn,
   },
   data: function () {
     return {
@@ -126,9 +117,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss" scoped>
-.intern {
-  height: 500px;
-}
-</style>
