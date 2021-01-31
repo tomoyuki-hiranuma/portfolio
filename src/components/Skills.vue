@@ -17,10 +17,10 @@
     <p class="text-2xl my-10">Work experience</p>
     <div>
       <div class="my-10">
-        <p class="">TeamLab</p>
+        <p class="">TeamLab Inc.</p>
         <div>
-          <p>2020-11 ~ 2020-12</p>
-          <p>ECサイトのバックエンド開発に従事</p>
+          <p>2020-11-26 ~ 2020-12-23</p>
+          <p>Work as a backend engineer in the e-commerce technology</p>
         </div>
       </div>
       <div class="my-10">
@@ -28,10 +28,10 @@
         <div>
           <p>2020-9-1 ~ 2020-9-11</p>
           <p>
-            「人と人をオンラインでつなぐ」というテーマのもと新規サービスのプロトタイプを開発
-          </p>
-          <p>
-            6人チームのプロジェクトリーダー及びバックエンドリーダーとして開発に従事
+            Develop a new service as a prototype in the theme "Connect people
+            online"<br />
+            Work as a leader of backend engineers and a project leader in our
+            team
           </p>
         </div>
       </div>
@@ -39,12 +39,16 @@
         <p>e-Seikatsu Inc.</p>
         <div>
           <p>2020-8-24 ~ 2020-8-28</p>
+          <p>Develop a Property search service using in-house API</p>
         </div>
       </div>
       <div class="my-10">
-        <p>GATechnologies Inc.</p>
+        <p>GA Technologies Inc.</p>
         <div>
           <p>2020-6-27 ~ 2020-6-28</p>
+          <p>
+            Develop a prototype service that overcomes to replace with furniture
+          </p>
         </div>
       </div>
     </div>
