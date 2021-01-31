@@ -15,12 +15,16 @@
       </div>
     </div>
     <p class="text-2xl my-10">Work experience</p>
+    <!-- 変数にしてfor文で回す -->
     <div>
+      <!-- コンポーネントに分ける -->
       <div class="my-10">
         <p class="">TeamLab Inc.</p>
         <div>
           <p>2020-11-26 ~ 2020-12-23</p>
-          <p>Work as a backend engineer in the e-commerce technology</p>
+          <p>
+            Work as a backend engineer in the e-commerce technology actually
+          </p>
         </div>
       </div>
       <div class="my-10">
