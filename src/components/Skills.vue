@@ -15,49 +15,48 @@
       </div>
     </div>
     <p class="text-2xl my-10">Work experience</p>
+    <!-- 変数にしてfor文で回す -->
     <div>
-      <div class="my-10">
-        <p class="">TeamLab</p>
-        <div>
-          <p>2020-11 ~ 2020-12</p>
-          <p>ECサイトのバックエンド開発に従事</p>
-        </div>
-      </div>
-      <div class="my-10">
-        <p class="">Rakuten Inc.</p>
-        <div>
-          <p>2020-9-1 ~ 2020-9-11</p>
-          <p>
-            「人と人をオンラインでつなぐ」というテーマのもと新規サービスのプロトタイプを開発
-          </p>
-          <p>
-            6人チームのプロジェクトリーダー及びバックエンドリーダーとして開発に従事
-          </p>
-        </div>
-      </div>
-      <div class="my-10">
-        <p>e-Seikatsu Inc.</p>
-        <div>
-          <p>2020-8-24 ~ 2020-8-28</p>
-        </div>
-      </div>
-      <div class="my-10">
-        <p>GATechnologies Inc.</p>
-        <div>
-          <p>2020-6-27 ~ 2020-6-28</p>
-        </div>
-      </div>
+      <InternColumn
+        company="TeamLab Inc."
+        start_date="2020/11/26"
+        end_date="2020/12/23"
+        comment="Work as a backend engineer in the e-commerce technology actually"
+      />
+      <InternColumn
+        company="Rakuten Inc."
+        start_date="2020/9/1"
+        end_date="2020/9/11"
+        comment='Develop a new service as a prototype in the theme "Connect people
+            online"
+            Work as a leader of backend engineers and a project leader in our
+            team'
+      />
+      <InternColumn
+        company="e-Seikatsu Inc."
+        start_date="2020/8/24"
+        end_date="2020/8/28"
+        comment="Develop a Property search service using in-house API"
+      />
+      <InternColumn
+        company="GA Technologies Inc."
+        start_date="2020/6/27"
+        end_date="2020/6/28"
+        comment="Develop a prototype service that overcomes to replace with furniture"
+      />
     </div>
   </div>
 </template>
 
 <script>
 import SkillCard from '../atoms/SkillCard';
+import InternColumn from '../atoms/InternColumn';
 
 export default {
   name: 'Skills',
   components: {
     SkillCard,
+    InternColumn,
   },
   data: function () {
     return {
@@ -118,9 +117,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss" scoped>
-.intern {
-  height: 500px;
-}
-</style>
