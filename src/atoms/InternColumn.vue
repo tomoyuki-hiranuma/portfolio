@@ -2,8 +2,10 @@
   <div class="py-5 flex container mx-auto">
     <div class="flex-1 my-auto text-xl font-medium">{{ company }}</div>
     <div class="flex-1">
-      <p>{{ start_date }} ~ {{ end_date }}</p>
-      <p>{{ comment }}</p>
+      <p>{{ startDate }} ~ {{ endDate }}</p>
+      <p v-for="comment in comments" v-bind:key="comment.index">
+        {{ comment }}
+      </p>
     </div>
   </div>
 </template>
@@ -15,14 +17,14 @@ export default {
     company: {
       type: String,
     },
-    start_date: {
+    startDate: {
       type: String, // Dateとかのほうがよさそう
     },
-    end_date: {
+    endDate: {
       type: String,
     },
-    comment: {
-      type: String,
+    comments: {
+      type: Array,
     },
   },
 };

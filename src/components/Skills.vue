@@ -16,33 +16,12 @@
     </div>
     <p class="text-2xl my-10">Work experience</p>
     <!-- 変数にしてfor文で回す -->
-    <div>
+    <div v-for="intern in interns" v-bind:key="intern.company">
       <InternColumn
-        company="TeamLab Inc."
-        start_date="2020/11/26"
-        end_date="2020/12/23"
-        comment="Work as a backend engineer in the e-commerce technology actually"
-      />
-      <InternColumn
-        company="Rakuten Inc."
-        start_date="2020/9/1"
-        end_date="2020/9/11"
-        comment='Develop a new service as a prototype in the theme "Connect people
-            online"
-            Work as a leader of backend engineers and a project leader in our
-            team'
-      />
-      <InternColumn
-        company="e-Seikatsu Inc."
-        start_date="2020/8/24"
-        end_date="2020/8/28"
-        comment="Develop a Property search service using in-house API"
-      />
-      <InternColumn
-        company="GA Technologies Inc."
-        start_date="2020/6/27"
-        end_date="2020/6/28"
-        comment="Develop a prototype service that overcomes to replace with furniture"
+        :company="intern.company"
+        :startDate="intern.startDate"
+        :endDate="intern.endDate"
+        :comments="intern.comments"
       />
     </div>
   </div>
@@ -111,6 +90,39 @@ export default {
           level: '★★★☆☆',
           comment: 'Docker, docker-compose',
           src: '/images/program/docker.svg',
+        },
+      ],
+      interns: [
+        {
+          company: 'Teamlab Inc.',
+          startDate: '2020/11/26',
+          endDate: '2020/12/23',
+          comments: [
+            'Work as a backend engineer in the e-commerce technology actually',
+          ],
+        },
+        {
+          company: 'Rakuten Inc.',
+          startDate: '2020/9/1',
+          endDate: '2020/9/11',
+          comments: [
+            'Develop a new service as a prototype in the theme "Connect people online"',
+            'Work as a leader of backend engineers and a project leader in our team',
+          ],
+        },
+        {
+          company: 'e-Seikatsu Inc.',
+          startDate: '2020/8/24',
+          endDate: '2020/8/28',
+          comments: ['Develop a Property search service using in-house API'],
+        },
+        {
+          company: 'GA Technologies Inc.',
+          startDate: '2020/6/27',
+          endDate: '2020/6/28',
+          comments: [
+            'Develop a prototype service that overcomes to replace with furniture',
+          ],
         },
       ],
     };
