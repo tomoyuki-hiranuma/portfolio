@@ -19,9 +19,9 @@
     <div v-for="intern in interns" v-bind:key="intern.company">
       <InternColumn
         :company="intern.company"
-        :start_date="intern.start_date"
-        :end_date="intern.end_date"
-        :comment="intern.comment"
+        :startDate="intern.startDate"
+        :endDate="intern.endDate"
+        :comments="intern.comments"
       />
     </div>
   </div>
@@ -95,30 +95,34 @@ export default {
       interns: [
         {
           company: 'Teamlab Inc.',
-          start_date: '2020/11/26',
-          end_date: '2020/12/23',
-          comment:
+          startDate: '2020/11/26',
+          endDate: '2020/12/23',
+          comments: [
             'Work as a backend engineer in the e-commerce technology actually',
+          ],
         },
         {
           company: 'Rakuten Inc.',
-          start_date: '2020/9/1',
-          end_date: '2020/9/11',
-          comment:
-            'Develop a new service as a prototype in the theme "Connect people online" Work as a leader of backend engineers and a project leader in our team',
+          startDate: '2020/9/1',
+          endDate: '2020/9/11',
+          comments: [
+            'Develop a new service as a prototype in the theme "Connect people online"',
+            'Work as a leader of backend engineers and a project leader in our team',
+          ],
         },
         {
           company: 'e-Seikatsu Inc.',
-          start_date: '2020/8/24',
-          end_date: '2020/8/28',
-          comment: 'Develop a Property search service using in-house API',
+          startDate: '2020/8/24',
+          endDate: '2020/8/28',
+          comments: ['Develop a Property search service using in-house API'],
         },
         {
           company: 'GA Technologies Inc.',
-          start_date: '2020/6/27',
-          end_date: '2020/6/28',
-          comment:
+          startDate: '2020/6/27',
+          endDate: '2020/6/28',
+          comments: [
             'Develop a prototype service that overcomes to replace with furniture',
+          ],
         },
       ],
     };
