@@ -4,7 +4,7 @@
     <div>
       <div class="my-5">
         <p>オンライン衣類計測サービス</p>
-        <div>Vignette&Clarity社のサービス</div>
+        <div>Vignette&Clarity合同会社のサービス</div>
         <div>
           <div>使用技術</div>
           <li>Ruby on Rails</li>
@@ -22,6 +22,7 @@
           <li>MaterialUI</li>
           <li>React.js</li>
           <li>Redux</li>
+          <li>MySQL</li>
         </div>
       </div>
       <div class="my-5">
