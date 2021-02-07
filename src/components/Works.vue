@@ -8,7 +8,7 @@
         <div>
           <div>使用技術</div>
           <li>Ruby on Rails</li>
-          <li>BootStrap</li>
+          <li>Bootstrap</li>
           <li>AWS(S3, RDB, EC2)</li>
           <li>Flask</li>
         </div>
@@ -39,7 +39,7 @@
         <div>
           <div>使用技術</div>
           <li>Ruby on Rails</li>
-          <li>BootStrap</li>
+          <li>Bootstrap</li>
         </div>
       </div>
     </div>
