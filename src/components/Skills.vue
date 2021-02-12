@@ -15,7 +15,6 @@
       </div>
     </div>
     <p class="text-2xl my-10">Work experience</p>
-    <!-- 変数にしてfor文で回す -->
     <div v-for="intern in interns" v-bind:key="intern.company">
       <InternColumn
         :company="intern.company"
