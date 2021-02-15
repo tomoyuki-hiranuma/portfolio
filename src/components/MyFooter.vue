@@ -1,9 +1,9 @@
 <template>
   <footer class="relative">
-    <p class="float-left absolute top-1/3 left-8">
+    <p class="float-left absolute top-2/3 left-8 text-sm md:text-base">
       &copy;{{ thisYear }}- Tomoyuki Hiranuma. All rights reserved.
     </p>
-    <div class="absolute right-10 top-1/3">
+    <div class="absolute right-10 top-1/3 text-sm md:text-base">
       <a href="https://github.com/tomoyuki-hiranuma" class="m-2">Github</a>
       <a href="https://twitter.com/__N_u_m_a" class="m-2">Twitter</a>
       <a href="https://numa-blog.tokyo/" class="m-2">Blog</a>
