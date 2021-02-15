@@ -52,7 +52,6 @@ main {
 }
 #message {
   position: absolute;
-  // font-size: 40px;
   left: 10%;
   top: 50%;
 }
