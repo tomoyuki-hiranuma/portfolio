@@ -4,7 +4,7 @@
       <div>
         <div
           id="top"
-          class="static bg-gradient-to-r from-yellow-300 via-red-400 to-pink-400"
+          class="static bg-gradient-to-r from-yellow-300 via-red-400 to-pink-400 text-lg md:text-4xl lg:text-5xl"
         >
           <div id="message" class="">
             <div class="font-serif hover:text-gray-400 cursor-default">
@@ -52,7 +52,6 @@ main {
 }
 #message {
   position: absolute;
-  font-size: 40px;
   left: 10%;
   top: 50%;
 }
