@@ -3,35 +3,35 @@
     <div>
       <a href="#" v-scroll-to="'#top'">
         <p
-          class="font-serif w-24 md:w-44 lg:w-52 text-sm md:text-lg lg:text-xl"
+          class="font-serif w-24 md:w-36 lg:w-52 text-sm md:text-lg lg:text-xl"
         >
           Top
         </p>
       </a>
       <a href="#" v-scroll-to="'#about'">
         <p
-          class="font-serif w-24 md:w-44 lg:w-52 text-sm md:text-lg lg:text-xl"
+          class="font-serif w-24 md:w-36 lg:w-52 text-sm md:text-lg lg:text-xl"
         >
           About Me
         </p>
       </a>
       <a href="#" v-scroll-to="'#education'">
         <p
-          class="font-serif w-24 md:w-44 lg:w-52 text-sm md:text-lg lg:text-xl"
+          class="font-serif w-24 md:w-36 lg:w-52 text-sm md:text-lg lg:text-xl"
         >
           Education
         </p>
       </a>
       <a href="#" v-scroll-to="'#skills'">
         <p
-          class="font-serif w-24 md:w-44 lg:w-52 text-sm md:text-lg lg:text-xl"
+          class="font-serif w-24 md:w-36 lg:w-52 text-sm md:text-lg lg:text-xl"
         >
           Skills
         </p>
       </a>
       <a href="#" v-scroll-to="'#works'">
         <p
-          class="font-serif w-24 md:w-44 lg:w-52 text-sm md:text-lg lg:text-xl"
+          class="font-serif w-24 md:w-36 lg:w-52 text-sm md:text-lg lg:text-xl"
         >
           Works
         </p>
