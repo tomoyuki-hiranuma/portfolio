@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="mt-5 md:mt-16">
     <MyHeader />
     <Main />
     <MyFooter />
@@ -28,6 +28,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
