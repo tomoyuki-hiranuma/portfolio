@@ -61,7 +61,6 @@ header {
 p {
   padding: 16px;
   display: inline-block;
-  // font-size: 18px;
   cursor: pointer;
   &:hover {
     background-color: darken(white, 5%);
