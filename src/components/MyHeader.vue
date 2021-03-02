@@ -2,19 +2,19 @@
   <header>
     <div>
       <a href="#" v-scroll-to="'#top'">
-        <p class="font-serif">Top</p>
+        <p class="font-serif w-20 md:w-44 lg:w-52">Top</p>
       </a>
       <a href="#" v-scroll-to="'#about'">
-        <p class="font-serif">About Me</p>
+        <p class="font-serif w-20 md:w-44 lg:w-52">About Me</p>
       </a>
       <a href="#" v-scroll-to="'#education'">
-        <p class="font-serif">Education</p>
+        <p class="font-serif w-20 md:w-44 lg:w-52">Education</p>
       </a>
       <a href="#" v-scroll-to="'#skills'">
-        <p class="font-serif">Skills</p>
+        <p class="font-serif w-20 md:w-44 lg:w-52">Skills</p>
       </a>
       <a href="#" v-scroll-to="'#works'">
-        <p class="font-serif">Works</p>
+        <p class="font-serif w-20 md:w-44 lg:w-52">Works</p>
       </a>
     </div>
   </header>
@@ -40,7 +40,6 @@ header {
 
 p {
   padding: 16px;
-  width: 160px;
   display: inline-block;
   font-size: 18px;
   cursor: pointer;
