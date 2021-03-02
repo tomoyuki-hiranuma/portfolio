@@ -1,5 +1,5 @@
 <template>
-  <div class="py-10 flex justify-center">
+  <div class="py-10 sm:flex justify-center">
     <div class="mx-10">
       <p class="font-extrabold text-xl font-serif">{{ work_name }}</p>
       <div class="text-sm">{{ where }}</div>
@@ -10,7 +10,7 @@
         </div>
       </div>
     </div>
-    <div class="max-w-sm">
+    <div class="max-w-sm mx-10">
       <img :src="img_path" />
     </div>
   </div>
