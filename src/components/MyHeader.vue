@@ -3,35 +3,35 @@
     <div>
       <a href="#" v-scroll-to="'#top'">
         <p
-          class="font-serif w-24 md:w-36 lg:w-52 text-sm md:text-lg lg:text-xl"
+          class="font-serif w-24 md:w-36 lg:w-52 text-sm md:text-lg lg:text-xl p-2 sm:p-4"
         >
           Top
         </p>
       </a>
       <a href="#" v-scroll-to="'#about'">
         <p
-          class="font-serif w-24 md:w-36 lg:w-52 text-sm md:text-lg lg:text-xl"
+          class="font-serif w-24 md:w-36 lg:w-52 text-sm md:text-lg lg:text-xl p-2 sm:p-4"
         >
           About Me
         </p>
       </a>
       <a href="#" v-scroll-to="'#education'">
         <p
-          class="font-serif w-24 md:w-36 lg:w-52 text-sm md:text-lg lg:text-xl"
+          class="font-serif w-24 md:w-36 lg:w-52 text-sm md:text-lg lg:text-xl p-2 sm:p-4"
         >
           Education
         </p>
       </a>
       <a href="#" v-scroll-to="'#skills'">
         <p
-          class="font-serif w-24 md:w-36 lg:w-52 text-sm md:text-lg lg:text-xl"
+          class="font-serif w-24 md:w-36 lg:w-52 text-sm md:text-lg lg:text-xl p-2 sm:p-4"
         >
           Skills
         </p>
       </a>
       <a href="#" v-scroll-to="'#works'">
         <p
-          class="font-serif w-24 md:w-36 lg:w-52 text-sm md:text-lg lg:text-xl"
+          class="font-serif w-24 md:w-36 lg:w-52 text-sm md:text-lg lg:text-xl p-2 sm:p-4"
         >
           Works
         </p>
@@ -59,7 +59,6 @@ header {
 }
 
 p {
-  padding: 16px;
   display: inline-block;
   cursor: pointer;
   &:hover {
