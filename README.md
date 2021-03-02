@@ -1,6 +1,6 @@
 # tomoyuki-hiranuma's portfolio
 This is my portfolio site.  
-Used skills below.
+Used skills are below.
 - HTML/CSS
 - Vue.js  
 - Tailwind CSS  
