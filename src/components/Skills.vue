@@ -3,7 +3,7 @@
     <p class="text-4xl my-10 font-serif">Skills</p>
     <p class="text-2xl my-5">language&Frameworks</p>
     <div
-      class="container mx-auto grid grid-cols-3 gap-3 justify-center items-center"
+      class="container mx-auto grid grid-cols-2 sm:grid-cols-3 gap-3 justify-center items-center"
     >
       <div v-for="skill in skills" v-bind:key="skill.program">
         <SkillCard
