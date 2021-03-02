@@ -1,9 +1,15 @@
 <template>
   <div class="py-5 flex container mx-auto">
-    <div class="flex-1 my-auto text-xl font-medium">{{ company }}</div>
-    <div class="flex-1">
-      <p>{{ startDate }} ~ {{ endDate }}</p>
-      <p v-for="comment in comments" v-bind:key="comment.index">
+    <div class="flex-1 my-auto text-lg md:text-xl font-medium">
+      {{ company }}
+    </div>
+    <div class="flex-1 mx-2">
+      <p class="text-sm md:text-lg">{{ startDate }} ~ {{ endDate }}</p>
+      <p
+        class="text-sm md:text-lg"
+        v-for="comment in comments"
+        v-bind:key="comment.index"
+      >
         {{ comment }}
       </p>
     </div>

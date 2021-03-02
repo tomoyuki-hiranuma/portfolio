@@ -1,7 +1,7 @@
 <template>
   <div id="about">
-    <p class="text-4xl my-10 font-serif">About me</p>
-    <div class="text-lg my-10">
+    <p class="text-2xl md:text-4xl my-7 md:my-10 font-serif">About me</p>
+    <div class="text-sm md:text-lg my-7 md:my-10">
       <li>Master student at Tokyo Institute of Technology</li>
       <li>Major in Computer Science</li>
       <li>Study about Genetic Algorithm in Combinatorial Optimization</li>

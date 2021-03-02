@@ -1,7 +1,7 @@
 <template>
   <div id="skills">
-    <p class="text-4xl my-10 font-serif">Skills</p>
-    <p class="text-2xl my-5">language&Frameworks</p>
+    <p class="text-2xl md:text-4xl my-5 md:my-10 font-serif">Skills</p>
+    <p class="text-lg md:text-2xl my-3 md:my-5">language&Frameworks</p>
     <div
       class="container mx-auto grid grid-cols-2 sm:grid-cols-3 gap-3 justify-center items-center"
     >
@@ -14,7 +14,7 @@
         />
       </div>
     </div>
-    <p class="text-2xl my-10">Work experience</p>
+    <p class="text-lg md:text-2xl my-10">Work experience</p>
     <div v-for="intern in interns" v-bind:key="intern.company">
       <InternColumn
         :company="intern.company"
