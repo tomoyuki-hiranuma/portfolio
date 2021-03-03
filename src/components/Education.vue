@@ -4,7 +4,7 @@
     <div class="text-sm md:text-lg">
       <div class="p-1 md:p-3">
         <li>Department of Mechanical Engineering Infomatics, Meiji Univ</li>
-        <p>Bachelar's research: control engineering</p>
+        <p>Bachelor's research: control engineering</p>
       </div>
       <div class="p-1 md:p-3">
         <li>
