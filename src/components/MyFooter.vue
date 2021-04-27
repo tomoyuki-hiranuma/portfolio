@@ -7,6 +7,9 @@
       <a href="https://github.com/tomoyuki-hiranuma" class="m-2">Github</a>
       <a href="https://twitter.com/__N_u_m_a" class="m-2">Twitter</a>
       <a href="https://numa-blog.tokyo/" class="m-2">Blog</a>
+      <a href="https://www.linkedin.com/in/tomoyuki-hiranuma-695266206/">
+        LinkedIn
+      </a>
     </div>
   </footer>
 </template>
