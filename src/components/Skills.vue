@@ -14,6 +14,7 @@
         />
       </div>
     </div>
+    <!-- <StarReference /> -->
     <p class="text-lg md:text-2xl my-10">Work experience</p>
     <div v-for="intern in interns" v-bind:key="intern.company">
       <InternColumn
@@ -29,12 +30,14 @@
 <script>
 import SkillCard from '../atoms/SkillCard';
 import InternColumn from '../atoms/InternColumn';
+// import StarReference from '../components/StarReference';
 
 export default {
   name: 'Skills',
   components: {
     SkillCard,
     InternColumn,
+    // StarReference,
   },
   data: function () {
     return {
@@ -56,6 +59,12 @@ export default {
           level: '★★★☆☆',
           comment: '研究で使用',
           src: '/images/program/python.svg',
+        },
+        {
+          program: 'React',
+          level: '★★★☆☆',
+          comment: 'redux',
+          src: '/images/program/react.svg',
         },
         {
           program: 'HTML5/CSS3',
