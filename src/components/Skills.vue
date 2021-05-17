@@ -24,12 +24,14 @@
         :comments="intern.comments"
       />
     </div>
+    <Qualifications />
   </div>
 </template>
 
 <script>
 import SkillCard from '../atoms/SkillCard';
 import InternColumn from '../atoms/InternColumn';
+import Qualifications from '../components/Qualification';
 // import StarReference from '../components/StarReference';
 
 export default {
@@ -37,6 +39,7 @@ export default {
   components: {
     SkillCard,
     InternColumn,
+    Qualifications,
     // StarReference,
   },
   data: function () {

@@ -19,7 +19,6 @@
       <About />
       <Education />
       <Skills />
-      <Qualifications />
       <Works />
     </div>
   </main>
@@ -30,7 +29,6 @@ import About from './About.vue';
 import Education from './Education';
 import Skills from './Skills';
 import Works from './Works';
-import Qualifications from './Qualification';
 
 export default {
   name: 'Main',
@@ -39,7 +37,6 @@ export default {
     Education,
     Skills,
     Works,
-    Qualifications,
   },
 };
 </script>
