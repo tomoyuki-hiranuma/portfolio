@@ -48,13 +48,13 @@ export default {
         {
           program: 'Ruby on Rails',
           level: '★★★★☆',
-          comment: '調べながらある程度のアプリ作れます',
+          comment: '調べながらある程度のアプリを実現可能',
           src: '/images/program/ruby.svg',
         },
         {
           program: 'C++',
-          level: '★★☆☆',
-          comment: '競技プログラミングに使用しています',
+          level: '★★☆☆☆',
+          comment: '競技プログラミングに使用',
           src: '/images/program/c-plusplus.svg',
         },
         {
