@@ -14,6 +14,9 @@
     </div>
     <div class="max-w-sm mx-10">
       <img :src="img_path" />
+      <div class="mt-4" v-if="code_url">
+        <a class="hover:text-blue-500" :href="code_url">source</a>
+      </div>
     </div>
   </div>
 </template>
@@ -26,6 +29,7 @@ export default {
     where: String,
     skills: Array,
     img_path: String,
+    code_url: String,
   },
 };
 </script>
