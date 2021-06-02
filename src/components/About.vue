@@ -1,6 +1,7 @@
 <template>
   <div id="about">
     <p class="text-2xl md:text-4xl my-7 md:my-10 font-serif">About me</p>
+    <img src="/images/icon.png" class="mx-auto" />
     <div class="w-1/2 mx-auto text-sm md:text-lg my-7 md:my-10">
       <div class="">
         <li class="text-left">
