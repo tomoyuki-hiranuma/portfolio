@@ -10,7 +10,7 @@
         <li class="text-left">
           Study about Genetic Algorithm in Combinatorial Optimization
         </li>
-        <li class="text-left">Web developer</li>
+        <li class="text-left mb-4">Web developer</li>
         <p>I want to be a software engineer working around the world,</p>
         <p>and make applications like making the world more convenient.</p>
       </div>
