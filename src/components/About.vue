@@ -9,7 +9,7 @@
         </li>
         <li class="text-left">Major in Computer Science</li>
         <li class="text-left">
-          Study about Genetic Algorithm in Combinatorial Optimization
+          Study about EDAs in Combinatorial Optimization
         </li>
         <li class="text-left mb-4">Web developer</li>
         <p>I want to be a software engineer working around the world,</p>
