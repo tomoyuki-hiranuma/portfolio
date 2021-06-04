@@ -13,14 +13,14 @@
           </div>
           <div class="m-3">
             <p class="text-base md:text-xl font-bold text-left">University</p>
-            <p class="text-left pl-2">Tokyo Institute of Technology(M2)</p>
+            <p class="text-left pl-2">Tokyo Institute of Technology (M2)</p>
             <p class="text-left pl-2">2020.4 - 2022.3</p>
           </div>
           <div class="m-3">
             <p class="text-base md:text-xl font-bold text-left">
               Reserch theme
             </p>
-            <p class="text-left pl-2">EDAs for combinaorial optimization</p>
+            <p class="text-left pl-2">EDAs for combinatorial optimization</p>
           </div>
           <div class="m-3">
             <p class="text-base md:text-xl font-bold text-left">Hobbies</p>
