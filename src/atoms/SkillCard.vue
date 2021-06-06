@@ -1,5 +1,8 @@
 <template>
-  <div class="bg-white flex items-center p-2 rounded-xl shadow border m-1">
+  <div
+    class="bg-gray-100 hover:bg-gray-300 cursor-pointer flex items-center p-2 rounded-xl shadow-lg border m-1"
+    v-on:click="handleClick"
+  >
     <div class="flex items-center space-x-4">
       <img :src="image_src" width="25" />
     </div>
@@ -38,5 +41,10 @@ export default {
     },
   },
   name: 'SkillCard',
+  methods: {
+    handleClick: function () {
+      alert(this.program + 'について\n工事中');
+    },
+  },
 };
 </script>

@@ -46,9 +46,9 @@ export default {
     return {
       skills: [
         {
-          program: 'Ruby on Rails',
-          level: '★★★★☆',
-          comment: '調べながらある程度のアプリを実現可能',
+          program: 'Ruby',
+          level: '★★★☆☆',
+          comment: 'Rails',
           src: '/images/program/ruby.svg',
         },
         {
@@ -71,7 +71,7 @@ export default {
         },
         {
           program: 'HTML5/CSS3',
-          level: '★★★☆☆',
+          level: '★★☆☆☆',
           src: '/images/program/html.svg',
         },
         {
@@ -86,20 +86,15 @@ export default {
           src: '/images/program/vue.svg',
         },
         {
-          program: 'Git',
-          level: '★★★☆☆',
-          src: '/images/program/git-icon.svg',
-        },
-        {
           program: 'AWS',
-          level: '★★☆☆☆',
+          level: '★☆☆☆☆',
           comment: 'S3, EC2, RDS',
           src: '/images/program/aws.svg',
         },
         {
           program: 'Docker',
           level: '★★★☆☆',
-          comment: 'Docker, docker-compose',
+          comment: 'docker-compose',
           src: '/images/program/docker.svg',
         },
       ],
