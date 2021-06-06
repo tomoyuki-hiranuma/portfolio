@@ -1,5 +1,7 @@
 <template>
-  <div class="my-10 border-4 rounded-full py-3 px-6 border-gray-500">
+  <div
+    class="my-10 mx-auto border-4 rounded-full py-9 px-6 border-gray-500 shadow-lg"
+  >
     <p class="font-bold">School</p>
     <p>{{ school }}</p>
     <p class="font-bold">When</p>
