@@ -7,7 +7,12 @@
         <p>レベル：{{ val.level }}</p>
         <p>{{ val.comment }}</p>
         <p v-if="val.experience">経験歴：{{ val.experience }}</p>
-        <button @click="$emit('close')">閉じる</button>
+        <button
+          @click="$emit('close')"
+          class="mt-12 mb-3 rounded-lg hover:bg-gray-300"
+        >
+          閉じる
+        </button>
       </div>
     </div>
   </transition>
@@ -38,14 +43,19 @@ export default {
   z-index: 2;
   width: 50%;
   padding-top: 5em;
-  padding-bottom: 5em;
+  padding-bottom: auto;
   text-align: center;
-  background-color: whitesmoke;
+  --tw-bg-opacity: 1;
+  background-color: rgba(249, 250, 251, var(--tw-bg-opacity));
 }
 
 #content > img {
   width: 15%;
   margin: auto;
+}
+
+#content > button {
+  padding: 3px;
 }
 .modal-enter-active,
 .modal-leave-active {
