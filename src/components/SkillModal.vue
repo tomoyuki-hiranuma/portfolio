@@ -1,7 +1,7 @@
 <template>
   <transition name="modal">
     <div id="overlay">
-      <div id="content" class="modal is-active modal-content">
+      <div id="content" class="modal is-active modal-content rounded-xl">
         <img :src="val.src" />
         <p>技術：{{ val.program }}</p>
         <p>レベル：{{ val.level }}</p>
