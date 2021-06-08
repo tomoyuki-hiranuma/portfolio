@@ -10,7 +10,6 @@
         {{ program }}
       </div>
       <div class="text-xs sm:text-sm">{{ level }}</div>
-      <div class="text-xs sm:text-sm text-gray-500">{{ comment }}</div>
     </div>
   </div>
 </template>
