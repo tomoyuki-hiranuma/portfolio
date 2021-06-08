@@ -149,8 +149,6 @@ export default {
     openModal(skill) {
       this.isModalOpen = true;
       this.postSkill = skill;
-      console.log(this.isModalOpen);
-      // alert(this.program + 'について\n工事中');
     },
     closeModal() {
       this.isModalOpen = false;
