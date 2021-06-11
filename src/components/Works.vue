@@ -1,7 +1,7 @@
 <template>
   <div id="works">
     <p class="text-2xl md:text-4xl my-5 md:my-10 font-serif">Works</p>
-    <div v-for="work in works" v-bind:key="work.work_name">
+    <div v-for="work in works" :key="work.work_name">
       <WorksCard
         :work_name="work.work_name"
         :where="work.where"

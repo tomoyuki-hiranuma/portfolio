@@ -2,15 +2,15 @@
   <div id="education">
     <p class="text-2xl md:text-4xl my-7 md:my-10 font-serif">Education</p>
     <div
-      class="text-sm md:text-lg w-3/5 mx-auto"
       v-for="school in schools"
-      v-bind:key="school.name"
+      :key="school.name"
+      class="text-sm md:text-lg w-3/5 mx-auto"
     >
       <EducationCard
         :school="school.name"
-        :startDate="school.startDate"
-        :endDate="school.endDate"
-        :researchField="school.researchField"
+        :start-date="school.startDate"
+        :end-date="school.endDate"
+        :research-field="school.researchField"
       />
     </div>
   </div>

@@ -8,8 +8,8 @@
         <p>{{ val.comment }}</p>
         <p v-if="val.experience">経験歴：{{ val.experience }}</p>
         <button
-          @click="$emit('close')"
           class="mt-12 mb-3 rounded-lg hover:bg-gray-300"
+          @click="$emit('close')"
         >
           閉じる
         </button>

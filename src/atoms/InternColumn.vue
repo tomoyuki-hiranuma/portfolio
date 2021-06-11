@@ -1,6 +1,16 @@
 <template>
   <div
-    class="py-5 flex container mx-auto border-2 rounded-lg my-10 border-gray-500 shadow-lg"
+    class="
+      py-5
+      flex
+      container
+      mx-auto
+      border-2
+      rounded-lg
+      my-10
+      border-gray-500
+      shadow-lg
+    "
   >
     <p class="mx-10 my-auto text-sm md:text-lg">
       {{ startDate }} ~ {{ endDate }}
@@ -10,9 +20,9 @@
     </div>
     <div class="flex-1 mx-2">
       <p
-        class="text-sm md:text-lg"
         v-for="comment in comments"
-        v-bind:key="comment.index"
+        :key="comment.index"
+        class="text-sm md:text-lg"
       >
         {{ comment }}
       </p>
@@ -26,15 +36,19 @@ export default {
   props: {
     company: {
       type: String,
+      default: '',
     },
     startDate: {
       type: String, // Dateとかのほうがよさそう
+      default: '',
     },
     endDate: {
       type: String,
+      default: '',
     },
     comments: {
       type: Array,
+      default: [''],
     },
   },
 };
