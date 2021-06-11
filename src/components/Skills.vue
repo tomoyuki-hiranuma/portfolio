@@ -3,26 +3,36 @@
     <p class="text-2xl md:text-4xl my-5 md:my-10 font-serif">Skills</p>
     <p class="text-lg md:text-2xl my-3 md:my-5">language&Frameworks</p>
     <div
-      class="container mx-auto grid grid-cols-1 sm:grid-cols-3 gap-3 justify-center items-center w-1/2 sm:w-full"
+      class="
+        container
+        mx-auto
+        grid grid-cols-1
+        sm:grid-cols-3
+        gap-3
+        justify-center
+        items-center
+        w-1/2
+        sm:w-full
+      "
     >
-      <div v-for="skill in skills" v-bind:key="skill.program">
+      <div v-for="skill in skills" :key="skill.program">
         <div @click="openModal(skill)">
           <SkillCard
             :program="skill.program"
             :level="skill.level"
             :comment="skill.comment"
-            :image_src="skill.src"
+            :image-src="skill.src"
           />
         </div>
       </div>
     </div>
-    <SkillModal :val="postSkill" v-show="isModalOpen" @close="closeModal" />
+    <SkillModal v-show="isModalOpen" :val="postSkill" @close="closeModal" />
     <p class="text-lg md:text-2xl my-10">Work experience</p>
-    <div v-for="intern in interns" v-bind:key="intern.company">
+    <div v-for="intern in interns" :key="intern.company">
       <InternColumn
         :company="intern.company"
-        :startDate="intern.startDate"
-        :endDate="intern.endDate"
+        :start-date="intern.startDate"
+        :end-date="intern.endDate"
         :comments="intern.comments"
       />
     </div>
