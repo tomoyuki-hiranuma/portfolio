@@ -7,7 +7,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "eslint --fix ./**/*.vue",
+    "lint": "eslint ./**/*.vue",
     "test": "jest"
   },
   "dependencies": {
