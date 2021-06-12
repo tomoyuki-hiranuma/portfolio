@@ -1,7 +1,6 @@
 import Vue from 'vue';
 import App from './App.vue';
 import './assets/index.css';
-import VueGtag from 'vue-gtag';
 
 Vue.config.productionTip = false;
 let VueScrollTo = require('vue-scrollto');
@@ -18,10 +17,6 @@ Vue.use(VueScrollTo, {
   onCancel: false,
   x: false,
   y: true,
-});
-
-Vue.use(VueGtag, {
-  config: { id: 'UA-199289393-4' },
 });
 
 /* eslint-disable */
