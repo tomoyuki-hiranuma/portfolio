@@ -19,8 +19,6 @@ Vue.use(VueScrollTo, {
   y: true,
 });
 
-/* eslint-disable */
-
 new Vue({
   render: (h) => h(App),
 }).$mount('#app');

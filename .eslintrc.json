@@ -1,6 +1,6 @@
 {
-  "extends": ["plugin:prettier/recommended", "plugin:vue/recommended"],
-  "plugins": ["vue", "prettier"],
+  "extends": ["eslint:recommended", "plugin:prettier/recommended", "plugin:vue/recommended"],
+  "plugins": ["prettier"],
   "parserOptions": {},
   "env": {
     "browser": true,
@@ -9,6 +9,8 @@
   "globals": {},
   // add your custom rules here
   "rules": {
-    "no-console": "off"
+    "no-console": "off",
+    "vue/singleline-html-element-content-newline": "off",
+    "vue/max-attributes-per-line": "off"
   }
 }
