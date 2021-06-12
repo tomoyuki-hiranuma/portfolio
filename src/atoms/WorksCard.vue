@@ -17,9 +17,9 @@
       </div>
     </div>
     <div class="max-w-sm mx-10">
-      <img :src="img_path" />
-      <div v-if="code_url" class="mt-4">
-        <a class="hover:text-blue-200" :href="code_url">source</a>
+      <img :src="imgPath" />
+      <div v-if="codeUrl" class="mt-4">
+        <a class="hover:text-blue-200" :href="codeUrl">source</a>
       </div>
     </div>
   </div>
@@ -29,11 +29,26 @@
 export default {
   name: 'WorksCard',
   props: {
-    work_name: String,
-    where: String,
-    skills: Array,
-    img_path: String,
-    code_url: String,
+    workName: {
+      type: String,
+      default: '',
+    },
+    where: {
+      type: String,
+      default: '',
+    },
+    skills: {
+      type: Array,
+      default: () => [],
+    },
+    imgPath: {
+      type: String,
+      default: '',
+    },
+    codeUrl: {
+      type: String,
+      default: '',
+    },
   },
 };
 </script>

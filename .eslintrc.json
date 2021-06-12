@@ -1,6 +1,6 @@
 {
   "extends": ["eslint:recommended", "plugin:prettier/recommended", "plugin:vue/recommended"],
-  "plugins": ["prettier"],
+  "plugins": ["prettier", "vue"],
   "parserOptions": {},
   "env": {
     "browser": true,
@@ -11,6 +11,7 @@
   "rules": {
     "no-console": "off",
     "vue/singleline-html-element-content-newline": "off",
-    "vue/max-attributes-per-line": "off"
+    "vue/max-attributes-per-line": "off",
+    "vue/html-self-closing": "off"
   }
 }

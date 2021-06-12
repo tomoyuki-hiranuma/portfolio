@@ -1,13 +1,13 @@
 <template>
   <div id="works">
     <p class="text-2xl md:text-4xl my-5 md:my-10 font-serif">Works</p>
-    <div v-for="work in works" :key="work.work_name">
+    <div v-for="work in works" :key="work.workName">
       <WorksCard
-        :work_name="work.work_name"
+        :workName="work.workName"
         :where="work.where"
         :skills="work.skills"
-        :img_path="work.img_src"
-        :code_url="work.code_url"
+        :imgPath="work.imgSrc"
+        :codeUrl="work.codeUrl"
       />
     </div>
   </div>
@@ -25,29 +25,29 @@ export default {
     return {
       works: [
         {
-          work_name: 'Duo3.4',
+          workName: 'Duo3.4',
           where: '単語帳Duo3.0の学習アプリ',
           skills: ['Python(Flask)', 'Next.js', 'Redux'],
-          img_src: '/images/works/up_coming.png',
-          code_url: 'https://github.com/kent0304/duo34',
+          imgSrc: '/images/works/up_coming.png',
+          codeUrl: 'https://github.com/kent0304/duo34',
         },
         {
-          work_name: 'atcoder notification bot',
+          workName: 'atcoder notification bot',
           where: '研究室競プロ部SlackチャンネルのBot',
           skills: ['Python', 'A3RT'],
-          img_src: '/images/works/atcoder_notification.png',
-          code_url:
+          imgSrc: '/images/works/atcoder_notification.png',
+          codeUrl:
             'https://github.com/tomoyuki-hiranuma/atcoder-slack-notification',
         },
         {
-          work_name: 'オンライン衣類計測サービス',
+          workName: 'オンライン衣類計測サービス',
           where: 'Vignette&Clarity合同会社の試作サービス',
           skills: ['Ruby on Rails', 'BootStrap', 'AWS(S3, RDB, EC2)', 'Flask'],
-          img_src: '/images/works/jeans_measure.png',
-          code_url: '',
+          imgSrc: '/images/works/jeans_measure.png',
+          codeUrl: '',
         },
         {
-          work_name: 'TheaTalk',
+          workName: 'TheaTalk',
           where: '楽天株式会社サマーインターンで開発',
           skills: [
             'Ruby on Rails',
@@ -56,22 +56,22 @@ export default {
             'Redux',
             'MySQL',
           ],
-          img_src: '/images/works/theatalk.png',
-          code_url: 'https://github.com/shortintern2020-B-frontier/TeamB',
+          imgSrc: '/images/works/theatalk.png',
+          codeUrl: 'https://github.com/shortintern2020-B-frontier/TeamB',
         },
         {
-          work_name: '大学生にいい生活',
+          workName: '大学生にいい生活',
           where: 'いい生活株式会社サマーインターンで開発',
           skills: ['Vue.js', 'Vuetify', 'Firebase', '社内API'],
-          img_src: '/images/works/e-seikatsu.png',
-          code_url: '',
+          imgSrc: '/images/works/e-seikatsu.png',
+          codeUrl: '',
         },
         {
-          work_name: '家具レイアウトレコメンドサービス',
+          workName: '家具レイアウトレコメンドサービス',
           where: 'GATechnologies株式会社ハッカソンインターンで開発',
           skills: ['Ruby on Rails', 'Bootstrap'],
-          img_src: '/images/works/no_image.png',
-          code_url: '',
+          imgSrc: '/images/works/no_image.png',
+          codeUrl: '',
         },
       ],
     };
