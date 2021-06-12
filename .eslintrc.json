@@ -1,5 +1,5 @@
 {
-  "extends": ["eslint:recommended", "plugin:prettier/recommended", "plugin:vue/recommended"],
+  "extends": ["plugin:prettier/recommended", "plugin:vue/recommended"],
   "plugins": ["prettier", "vue"],
   "parserOptions": {},
   "env": {
@@ -12,6 +12,7 @@
     "no-console": "off",
     "vue/singleline-html-element-content-newline": "off",
     "vue/max-attributes-per-line": "off",
-    "vue/html-self-closing": "off"
+    "vue/html-self-closing": "off",
+    "vue/attribute-hyphenation": "off"
   }
 }

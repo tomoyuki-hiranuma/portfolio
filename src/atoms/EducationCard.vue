@@ -26,15 +26,19 @@ export default {
   props: {
     school: {
       type: String,
+      default: '',
     },
     startDate: {
       type: String, // Dateとかのほうがよさそう
+      default: '',
     },
     endDate: {
       type: String,
+      default: '',
     },
     researchField: {
       type: String,
+      default: '',
     },
   },
 };
