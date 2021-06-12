@@ -24,6 +24,8 @@ Vue.use(VueGtag, {
   config: { id: 'UA-199289393-4' },
 });
 
+/* eslint-disable */
+
 new Vue({
   render: (h) => h(App),
 }).$mount('#app');
