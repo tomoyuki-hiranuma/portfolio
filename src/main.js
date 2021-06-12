@@ -21,7 +21,7 @@ Vue.use(VueScrollTo, {
 });
 
 Vue.use(VueGTag, {
-  config: { id: 'UA-199289393-3' },
+  config: { id: 'UA-199289393-4' },
 });
 
 new Vue({
