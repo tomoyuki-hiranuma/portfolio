@@ -57,7 +57,7 @@ export default {
   data: function () {
     return {
       isModalOpen: false,
-      postSkill: '',
+      postSkill: {},
       // mock-serverなどでデータを外に保持
       skills: [
         {

@@ -2,7 +2,7 @@
   <div class="py-5 md:py-10 sm:flex justify-center">
     <div class="mx-10">
       <p class="font-extrabold text-lg md:text-xl font-serif">
-        {{ work_name }}
+        {{ workName }}
       </p>
       <div class="text-xs md:text-sm">
         {{ where }}

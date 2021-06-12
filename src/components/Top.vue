@@ -4,8 +4,8 @@
     class="
       static
       bg-gradient-to-r
-      from-yellow-300
-      via-red-400
+      from-yellow-200
+      via-red-300
       to-pink-400
       text-2xl
       md:text-4xl
@@ -13,12 +13,8 @@
     "
   >
     <div id="message">
-      <div class="font-serif hover:text-gray-400 cursor-default">
-        Tomoyuki Hiranuma
-      </div>
-      <div class="font-serif hover:text-gray-400 cursor-default">
-        Welcome to my portfolio!!
-      </div>
+      <div class="font-serif cursor-default">Tomoyuki Hiranuma</div>
+      <div class="font-serif cursor-default">Welcome to my portfolio!!</div>
     </div>
   </div>
 </template>
