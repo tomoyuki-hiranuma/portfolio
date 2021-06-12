@@ -48,7 +48,7 @@ export default {
     },
     comments: {
       type: Array,
-      default: [''],
+      default: () => [],
     },
   },
 };
