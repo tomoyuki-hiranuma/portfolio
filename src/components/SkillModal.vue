@@ -21,7 +21,12 @@
 <script>
 export default {
   name: 'SkillModal',
-  props: ['val'],
+  props: {
+    ['val']: {
+      type: Object,
+      default: () => {},
+    },
+  },
 };
 </script>
 
