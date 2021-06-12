@@ -14,7 +14,7 @@
     "
   >
     <div class="flex items-center space-x-4">
-      <img :src="imageSrc" width="25" />
+      <img :src="imageSrc" :alt="program" width="25px" height="25px" />
     </div>
     <div class="flex-grow p-3">
       <div class="text-sm sm:text-lg font-semibold text-gray-700">

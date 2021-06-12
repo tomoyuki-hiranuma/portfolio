@@ -9,15 +9,15 @@
       </div>
       <div class="container border-4 my-2 py-2 border-pink-300">
         <div class="text-sm md:text-base">使用技術</div>
-        <div v-for="skill in skills" :key="skill.index">
+        <ul v-for="skill in skills" :key="skill.index">
           <li class="text-left mx-5 md:mx-10">
             {{ skill }}
           </li>
-        </div>
+        </ul>
       </div>
     </div>
     <div class="max-w-sm mx-10">
-      <img :src="imgPath" />
+      <img :src="imgPath" :alt="alt" width="400px" height="250px" />
       <div v-if="codeUrl" class="mt-4">
         <a class="hover:text-blue-200" :href="codeUrl">source</a>
       </div>
@@ -46,6 +46,10 @@ export default {
       default: '',
     },
     codeUrl: {
+      type: String,
+      default: '',
+    },
+    alt: {
       type: String,
       default: '',
     },

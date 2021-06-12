@@ -8,6 +8,7 @@
         :skills="work.skills"
         :imgPath="work.imgSrc"
         :codeUrl="work.codeUrl"
+        :alt="work.alt"
       />
     </div>
   </div>
@@ -30,6 +31,7 @@ export default {
           skills: ['Python(Flask)', 'Next.js', 'Redux'],
           imgSrc: '/images/works/up_coming.png',
           codeUrl: 'https://github.com/kent0304/duo34',
+          alt: 'Duo3.4',
         },
         {
           workName: 'atcoder notification bot',
@@ -38,6 +40,7 @@ export default {
           imgSrc: '/images/works/atcoder_notification.png',
           codeUrl:
             'https://github.com/tomoyuki-hiranuma/atcoder-slack-notification',
+          alt: 'atcoder',
         },
         {
           workName: 'オンライン衣類計測サービス',
@@ -45,6 +48,7 @@ export default {
           skills: ['Ruby on Rails', 'BootStrap', 'AWS(S3, RDB, EC2)', 'Flask'],
           imgSrc: '/images/works/jeans_measure.png',
           codeUrl: '',
+          alt: 'jeans',
         },
         {
           workName: 'TheaTalk',
@@ -58,6 +62,7 @@ export default {
           ],
           imgSrc: '/images/works/theatalk.png',
           codeUrl: 'https://github.com/shortintern2020-B-frontier/TeamB',
+          alt: 'theatalk',
         },
         {
           workName: '大学生にいい生活',
@@ -65,6 +70,7 @@ export default {
           skills: ['Vue.js', 'Vuetify', 'Firebase', '社内API'],
           imgSrc: '/images/works/e-seikatsu.png',
           codeUrl: '',
+          alt: 'propertySearch',
         },
         {
           workName: '家具レイアウトレコメンドサービス',
@@ -72,6 +78,7 @@ export default {
           skills: ['Ruby on Rails', 'Bootstrap'],
           imgSrc: '/images/works/no_image.png',
           codeUrl: '',
+          alt: 'layout',
         },
       ],
     };
