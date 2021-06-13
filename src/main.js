@@ -2,7 +2,7 @@ import Vue from 'vue';
 import App from './App.vue';
 import './assets/index.css';
 
-Vue.config.productionTip = true;
+Vue.config.productionTip = false;
 let VueScrollTo = require('vue-scrollto');
 
 Vue.use(VueScrollTo, {

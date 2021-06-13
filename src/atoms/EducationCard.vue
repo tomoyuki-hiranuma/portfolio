@@ -8,7 +8,6 @@
       py-9
       px-6
       border-gray-500
-      shadow-lg
     "
   >
     <p class="font-bold">School</p>

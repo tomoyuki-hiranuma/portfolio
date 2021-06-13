@@ -21,7 +21,7 @@
             :program="skill.program"
             :level="skill.level"
             :comment="skill.comment"
-            :image-src="skill.src"
+            :imageSrc="skill.src"
           />
         </div>
       </div>

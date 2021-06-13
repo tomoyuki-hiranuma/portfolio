@@ -4,7 +4,7 @@
     <div>
       <div class="w-3/5 mx-auto h-auto text-sm md:text-base">
         <div class="mx-auto">
-          <img src="/images/icon.png" class="mx-auto float-right w-1/3" />
+          <img src="/images/icon.png" class="float-right" alt="profile" width="106px" height="106px" />
         </div>
         <div class="w-4/5 mx-auto">
           <div class="m-3">
