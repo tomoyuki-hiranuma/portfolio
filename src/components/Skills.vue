@@ -122,6 +122,12 @@ export default {
       ],
       interns: [
         {
+          company: 'Inprog inc.',
+          startDate: '2021/6/20',
+          endDate: 'now',
+          comments: ['アルバイトエンジニア1期生として働く'],
+        },
+        {
           company: 'Teamlab Inc.',
           startDate: '2020/11/26',
           endDate: '2020/12/23',
