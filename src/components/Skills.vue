@@ -61,6 +61,13 @@ export default {
       // mock-serverなどでデータを外に保持
       skills: [
         {
+          program: 'Next.js',
+          level: '★★★★☆',
+          comment: 'アーキテクチャを意識した開発が可能．パフォーマンスを意識したコードは学習中',
+          experience: '1年',
+          src: '/images/program/nextjs.svg',
+        },
+        {
           program: 'Ruby',
           level: '★★★☆☆',
           comment: 'RailsでWeb開発。自動ログインスクリプトも作成',
@@ -122,10 +129,16 @@ export default {
       ],
       interns: [
         {
+          company: 'Rakuten inc.',
+          startDate: '2021/8/19',
+          endDate: 'now',
+          comments: ['内定者アルバイトとして，Java,Reactを使って開発','Next+Typescript+Hasura(GraphQL)を利用'],
+        },
+        {
           company: 'Inprog inc.',
           startDate: '2021/6/20',
           endDate: 'now',
-          comments: ['アルバイトエンジニア1期生として働く'],
+          comments: ['アルバイトエンジニア1期生として働く．', 'プロダクト開発責任者として従事'],
         },
         {
           company: 'Teamlab Inc.',
