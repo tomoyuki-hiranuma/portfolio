@@ -132,13 +132,13 @@ export default {
           company: 'Rakuten inc.',
           startDate: '2021/8/19',
           endDate: 'now',
-          comments: ['内定者アルバイトとして，Java,Reactを使って開発','Next+Typescript+Hasura(GraphQL)を利用'],
+          comments: ['内定者アルバイトとして，Java,Reactを使って開発'],
         },
         {
           company: 'Inprog inc.',
           startDate: '2021/6/20',
           endDate: 'now',
-          comments: ['アルバイトエンジニア1期生として働く．', 'プロダクト開発責任者として従事'],
+          comments: ['アルバイトエンジニア1期生として働く．', 'プロダクト開発責任者として従事','Next+Typescript+Hasura(GraphQL)を利用'],
         },
         {
           company: 'Teamlab Inc.',
