@@ -130,14 +130,20 @@ export default {
       interns: [
         {
           company: 'Rakuten inc.',
-          startDate: '2021/8/19',
+          startDate: '2022/4/1',
           endDate: 'now',
+          comments: ['22卒正社員入社'],
+        },
+        {
+          company: 'Rakuten inc.',
+          startDate: '2021/8/19',
+          endDate: '2022/3/31',
           comments: ['内定者アルバイトとして，Java,Reactを使って開発'],
         },
         {
           company: 'Inprog inc.',
           startDate: '2021/6/20',
-          endDate: 'now',
+          endDate: '2022/3/28',
           comments: ['アルバイトエンジニア1期生として働く．', 'プロダクト開発責任者として従事','Next+Typescript+Hasura(GraphQL)を利用'],
         },
         {

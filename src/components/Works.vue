@@ -26,12 +26,12 @@ export default {
     return {
       works: [
         {
-          workName: 'Duo3.4',
-          where: '単語帳Duo3.0の学習アプリ',
-          skills: ['Python(Flask)', 'Next.js', 'Redux'],
+          workName: 'Numa Blog',
+          where: '自作ブログ',
+          skills: ['Next.js', 'Typescript', 'ChakraUI'],
           imgSrc: '/images/works/up_coming.png',
-          codeUrl: 'https://github.com/kent0304/duo34',
-          alt: 'Duo3.4',
+          codeUrl: 'https://github.com/tomoyuki-hiranuma/blog-client',
+          alt: 'Numa Blog',
         },
         {
           workName: 'atcoder notification bot',
