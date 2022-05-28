@@ -1,7 +1,7 @@
 <template>
   <div id="skills">
     <p class="text-2xl md:text-4xl my-5 md:my-10 font-serif">Skills</p>
-    <p class="text-lg md:text-2xl my-3 md:my-5">language&Frameworks</p>
+    <p class="text-lg md:text-2xl my-3 md:my-5">language&amp;Frameworks</p>
     <div
       class="
         container
@@ -63,7 +63,8 @@ export default {
         {
           program: 'Next.js',
           level: '★★★★☆',
-          comment: 'アーキテクチャを意識した開発が可能．パフォーマンスを意識したコードは学習中',
+          comment:
+            'SSR,SSGの使い分けが可能. パフォーマンスを意識したコードは学習中',
           experience: '1年',
           src: '/images/program/nextjs.svg',
         },
@@ -92,7 +93,7 @@ export default {
           program: 'React',
           level: '★★★☆☆',
           comment: 'reduxを使った状態管理経験あり。',
-          experience: '半年',
+          experience: '1年',
           src: '/images/program/react.svg',
         },
         {
@@ -123,7 +124,7 @@ export default {
           program: 'Docker',
           level: '★★★☆☆',
           comment: 'docker-composeをつかった環境構築に使用',
-          experience: '1年',
+          experience: '1.5年',
           src: '/images/program/docker.svg',
         },
       ],
@@ -144,7 +145,11 @@ export default {
           company: 'Inprog inc.',
           startDate: '2021/6/20',
           endDate: '2022/3/28',
-          comments: ['アルバイトエンジニア1期生として働く．', 'プロダクト開発責任者として従事','Next+Typescript+Hasura(GraphQL)を利用'],
+          comments: [
+            'アルバイトエンジニア1期生として働く.',
+            'プロダクト開発責任者として従事',
+            'Next+Typescript+Hasura(GraphQL)を利用',
+          ],
         },
         {
           company: 'Teamlab Inc.',

@@ -29,7 +29,7 @@ export default {
           workName: 'Numa Blog',
           where: '自作ブログ',
           skills: ['Next.js', 'Typescript', 'ChakraUI'],
-          imgSrc: '/images/works/up_coming.png',
+          imgSrc: '/images/works/numa_blog.png',
           codeUrl: 'https://github.com/tomoyuki-hiranuma/blog-client',
           alt: 'Numa Blog',
         },
