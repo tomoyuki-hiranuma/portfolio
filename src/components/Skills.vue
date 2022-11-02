@@ -65,12 +65,12 @@ export default {
           level: '★★★★☆',
           comment:
             'SSR,SSGの使い分けが可能. パフォーマンスを意識したコードは学習中',
-          experience: '1年',
+          experience: '2年',
           src: '/images/program/nextjs.svg',
         },
         {
           program: 'Ruby',
-          level: '★★★☆☆',
+          level: '★★☆☆☆',
           comment: 'RailsでWeb開発。自動ログインスクリプトも作成',
           experience: '2年',
           src: '/images/program/ruby.svg',
@@ -84,21 +84,21 @@ export default {
         },
         {
           program: 'Python',
-          level: '★★★☆☆',
+          level: '★★☆☆☆',
           comment: '研究で使用。Flaskで簡単なAPI開発。',
           experience: '3年',
           src: '/images/program/python.svg',
         },
         {
           program: 'React',
-          level: '★★★☆☆',
-          comment: 'reduxを使った状態管理経験あり。',
-          experience: '1年',
+          level: '★★★★☆',
+          comment: '一番好きなライブラリ',
+          experience: '3年',
           src: '/images/program/react.svg',
         },
         {
           program: 'HTML5/CSS3',
-          level: '★★☆☆☆',
+          level: '★★★☆☆',
           src: '/images/program/html.svg',
         },
         {
@@ -123,9 +123,16 @@ export default {
         {
           program: 'Docker',
           level: '★★★☆☆',
-          comment: 'docker-composeをつかった環境構築に使用',
-          experience: '1.5年',
+          comment: 'docker,docker-composeをつかった環境構築に使用',
+          experience: '2年',
           src: '/images/program/docker.svg',
+        },
+        {
+          program: 'Java',
+          level: '★★☆☆☆',
+          comment: 'Springを使った実務経験あり',
+          experience: '1年',
+          src: '/images/program/springio-icon.svg',
         },
       ],
       interns: [
@@ -133,7 +140,9 @@ export default {
           company: 'Rakuten inc.',
           startDate: '2022/4/1',
           endDate: 'now',
-          comments: ['22卒正社員入社'],
+          comments: [
+            '22卒正社員入社。社内ツールのフロントエンドの整備およびバックエンド開発。Java、React',
+          ],
         },
         {
           company: 'Rakuten inc.',

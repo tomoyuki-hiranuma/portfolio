@@ -26,6 +26,20 @@ export default {
     return {
       works: [
         {
+          workName: 'cre8ter.zone',
+          where: '株式会社inprogのサービス。設計開発全般担当',
+          skills: [
+            'Next.js',
+            'Typescript',
+            'ChakraUI',
+            'Hasura',
+            '※掲載許可あり',
+          ],
+          imgSrc: '/images/works/cre8terzone.png',
+          codeUrl: null,
+          alt: 'cre8ter.zone',
+        },
+        {
           workName: 'Numa Blog',
           where: '自作ブログ',
           skills: ['Next.js', 'Typescript', 'ChakraUI'],
