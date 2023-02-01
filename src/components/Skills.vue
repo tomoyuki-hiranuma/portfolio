@@ -139,7 +139,7 @@ export default {
         {
           company: 'Rakuten inc.',
           startDate: '2022/4/1',
-          endDate: 'now',
+          endDate: '2023/2/23',
           comments: [
             '22卒正社員入社。社内ツールのフロントエンドの整備およびバックエンド開発。Java、React',
           ],
